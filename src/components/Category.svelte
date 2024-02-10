@@ -1,0 +1,1 @@
+<a class="mb-12 inline-block rounded-tag bg-yellow px-12 py-4 text-tag-sm text-black xs:text-tag-lg transition-colors hover-device:hover:bg-black hover-device:hover:text-white" href="/">Learning</a>

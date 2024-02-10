@@ -1,0 +1,1 @@
+<p class="mb-24 text-description-sm text-grey xs:text-description-lg">These languages are the backbone of every website, defining structure, content, and presentation.</p>
