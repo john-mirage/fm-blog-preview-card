@@ -1,0 +1,30 @@
+.author {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+}
+
+.author__image {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 9999px;
+}
+
+.author__text {
+  color: var(--color-on-surface);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 1.3125rem */
+  transition-property: color;
+  transition-duration: 150ms;
+}
+
+@media screen and (hover: hover) {
+  .author:hover .author__text {
+    color: #F4D04E;
+  }
+}

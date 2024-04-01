@@ -1,0 +1,60 @@
+@import url("./styles/reset.css");
+@import url("./styles/components/page.css");
+@import url("./styles/components/card.css");
+@import url("./styles/components/author.css");
+
+:root {
+  --color-grey-50: hsl(0, 0%, 100%);
+  --color-grey-100: hsl(0, 0%, 90%);
+  --color-grey-300: hsl(0, 0%, 60%);
+  --color-grey-400: hsl(0, 0%, 50%);
+  --color-grey-800: hsl(0, 0%, 14%);
+  --color-grey-900: hsl(0, 0%, 7%);
+  --color-grey-950: hsl(0, 0%, 0%);
+
+  --color-yellow-500: hsl(47, 88%, 63%);
+
+  --color-background-light: var(--color-yellow-500);
+  --color-surface-light: var(--color-grey-50);
+  --color-on-surface-light: var(--color-grey-900);
+  --color-on-surface-variant-light: var(--color-grey-400);
+  --color-shadow-light: var(--color-grey-950);
+  --color-border-light: var(--color-grey-900);
+  --color-primary-light: var(--color-yellow-500);
+  --color-on-primary-light: var(--color-grey-900);
+
+  --color-background-dark: var(--color-grey-900);
+  --color-surface-dark: var(--color-grey-800);
+  --color-on-surface-dark: var(--color-grey-100);
+  --color-on-surface-variant-dark: var(--color-grey-300);
+  --color-shadow-dark: var(--color-yellow-500);
+  --color-border-dark: var(--color-grey-800);
+  --color-primary-dark: var(--color-yellow-500);
+  --color-on-primary-dark: var(--color-grey-900);
+}
+
+@media screen and (prefers-color-scheme: light) {
+  :root {
+    --color-background: var(--color-background-light);
+    --color-surface: var(--color-surface-light);
+    --color-on-surface: var(--color-on-surface-light);
+    --color-on-surface-variant: var(--color-on-surface-variant-light);
+    --color-shadow: var(--color-shadow-light);
+    --color-border: var(--color-border-light);
+    --color-primary: var(--color-primary-light);
+    --color-on-primary: var(--color-on-primary-light)
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--color-background-dark);
+    --color-surface: var(--color-surface-dark);
+    --color-on-surface: var(--color-on-surface-dark);
+    --color-on-surface-variant: var(--color-on-surface-variant-dark);
+    --color-shadow: var(--color-shadow-dark);
+    --color-border: var(--color-border-dark);
+    --color-primary: var(--color-primary-dark);
+    --color-on-primary: var(--color-on-primary-dark)
+  }
+}
